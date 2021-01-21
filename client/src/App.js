@@ -17,8 +17,6 @@ const App = () => {
    const [username, setUsername] = useState('')
    const [age, setAge] = useState(0)
 
-   console.log(oneUser)
-
    useEffect(() => {
       if (!loading) {
          setUsers(data.getAllUsers)
